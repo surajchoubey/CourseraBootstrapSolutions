@@ -1,3 +1,9 @@
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -47,8 +53,15 @@ body {
       left: 0;
       min-height: 300px; }
 
-#carouselButton {
+#carouselSpace {
   right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-content .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+
+.modal-content .modal-body {
+  background: #D1C4E9; }

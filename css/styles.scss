@@ -2,7 +2,12 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
-
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
 // Height variables
 $carousel-item-height: 300px;
 
@@ -68,9 +73,19 @@ body{
     }
 }
 
-#carouselButton {
+#carouselSpace {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-content {
+    .modal-header {
+        background: $background-dark;
+        color: floralwhite;
+    }
+    .modal-body {
+        background: $background-pale;
+    }
 }
